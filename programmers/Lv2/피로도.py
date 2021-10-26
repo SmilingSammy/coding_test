@@ -1,6 +1,5 @@
 from itertools import permutations
 
-
 def solution(k, dungeons):
     size = len(dungeons)
     cases = list(permutations(range(size), size))
